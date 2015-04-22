@@ -1,0 +1,22 @@
+{
+  "name": "AngularJS-Startpoint",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Christianjuth/AngularJS-Startpoint",
+  "authors": [
+    "christianjuth <cjuth2@gmail.com>"
+  ],
+  "description": "This is a AngularJS starter application",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/components"
+  ],
+  "devDependencies": {
+    "normalize.css": "~3.0.3",
+    "requirejs": "~2.1.17"
+  }
+}
