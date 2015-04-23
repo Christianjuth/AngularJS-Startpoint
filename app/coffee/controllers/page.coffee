@@ -1,6 +1,6 @@
-define ['jquery', 'angular'], ($, angular)->
+define ['jquery', 'angular'], ($, ng)->
 
-  app = angular.module('app')
+  app = ng.module('app')
 
   app.controller('page', ['$scope', ($scope)->
     $scope.sub = 'wtf'

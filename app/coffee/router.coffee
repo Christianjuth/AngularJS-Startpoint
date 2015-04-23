@@ -1,15 +1,15 @@
 define [
   'jquery',
   'angular',
-  'ngRoute',
+  'angular-route',
 
   #controlers
   'js/controllers/home',
   'js/controllers/page'
 
-], ($, angular)->
+], ($, ng)->
 
-  app = angular.module('app')
+  app = ng.module('app')
 
   app.config ($routeProvider, $locationProvider, $httpProvider)->
 

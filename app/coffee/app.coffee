@@ -1,16 +1,16 @@
 define [
   'jquery',
   'angular',
-  'ngRoute'
-], ($, angular)->
+  'angular-route'
+], ($, ng)->
 
   #app module
-  app = angular.module('app', [
+  app = ng.module('app', [
     'ngRoute'
   ])
 
   #initilize app function
   app.ini = ()->
-    angular.bootstrap(document, ['app'])
+    ng.bootstrap(document, ['app'])
 
   return app
